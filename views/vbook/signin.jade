@@ -1,0 +1,18 @@
+extends ../templates/forsignin/layoutforsignin
+
+block content
+  section.select-start-sign-in.container
+    h2(href='/', style='font-weight: bold') VirtBook
+    .box-sign-in.col-md-4.col-md-offset-4.col-sm-4.col-sm-offset-4.col-xs-12.form-group
+      h3 Ingresa
+      form.cube-sign-in.form-group(action='/sessions', method='post', autocomplete='off')
+        .form-group
+          input#comp_email.input-email(type='email', name='comp_email', placeholder='Company Email', autocomplete='off')
+        .form-group
+          input#comp_pass.input-pass(type='password', name='comp_pass', placeholder='Password')
+        .checkbox
+          label
+            input(type='checkbox', name='remember')
+            |  Recordar mi código
+        .form-group
+          button.btn.col-lg-12.col-md-12.col-sm-12.col-xs-12(type='submit') Ingresar

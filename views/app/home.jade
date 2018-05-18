@@ -1,0 +1,34 @@
+extends ../templates/forusers/layoutuser
+
+block content
+  .total-content
+    .grandcontent
+      .container.col-lg-7.col-md-7.col-sm-12.col-xs-12
+        
+        form.textform(action='/app/textnote', method='POST')
+
+          input(type='text', name='title', id='addimg', placeholder='Título de la nota', autocomplete='off')
+
+          textarea(name='text', id='texto', placeholder='Escribe una nota', autocomplete='off')
+
+          .btn-1.col-lg-6.col-md-6.col-sm-6.col-xs-6
+
+            button.addtext(name='add', id='add') Agregar
+          .btn-2.col-lg-6.col-md-6.col-sm-6.col-xs-6
+            button.addgroup(name='asign', id='asign') Asignar libro
+
+
+
+      .mynotes.col-lg-5.col-md-5.col-sm-12.col-xs-12
+
+        h2 No tienes libros creados
+
+        .btn-add.col-lg-12.col-md-12.col-sm-12.col-xs-12
+          button.addbook(nane='addbook', id='addbook') Agregar libro
+
+
+      .text-nav
+        textarea(name='text-note-01', id='texto1')
+
+
+

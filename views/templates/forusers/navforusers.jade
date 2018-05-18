@@ -1,0 +1,35 @@
+nav.navbar.navbar-default.navbar-fixed-top
+  .container-fluid
+    .navbar-header
+      button.navbar-toggle(type='button', data-toggle='collapse', data-target='#myNavbar')
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href='/app') VirtBook
+    #myNavbar.collapse.navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+
+        li
+          a(href='/app/textnote') Mis apuntes
+
+        li
+          a(href='/app/imagenes/new') Mis imagenes
+        
+        li
+          a(href='/app/addbook')= user.comp_name
+        li
+          a(href='/Vbook-signin') Cerrar sesión
+        
+        //li.dropdown
+          a.dropdown-toggle(data-toggle="dropdown" href="#") MORE
+          span.caret
+          ul.dropdown-menu
+            li
+              a(href="#") Merchandise
+            li
+              a(href="#") Extras
+            li
+              a(href="#") Media
+          
+        //<li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+

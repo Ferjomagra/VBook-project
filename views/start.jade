@@ -1,0 +1,58 @@
+extends templates/forothers/layout
+
+block content
+  #image.image
+  .bigContent
+    .mayor-content
+      section.introduction.container
+        .group.col-lg-6.col-md-6.col-sm-6.col-xs-6
+          .photo-html.container.img-responsive
+            .web-cam
+            .screen.container.img-responsive
+            .button-phone
+        .content-1.col-lg-6.col-md-6.col-sm-6.col-xs-6
+          h2 Tus actividades en cualquier lugar
+          // <h2>Tu expansión es ahora</h2>
+          h3
+            | VirtBook es una agenda virtual con la cual podrás agregar tus actividades y gestionarlas adecuadamente obteniendo una mayor eficiencia y rapidéz en tu vida personal. 
+          h3 Agrega, gestiona y agiliza tus actividades. Únete a nosotros. 
+          .button_content-1
+            a(href='/Vbook-signup') Comienza tu registro
+            
+    .second-part.col-lg-12.col-md-12.col-sm-12.col-xs-12
+      .second-mayor
+        .cont-first.container
+          h2 Organiza eficientemente tus actividades
+          .cont-into
+            h3
+              | No pierdas información importante en tu día a día. Anota tus ideas, trabajos pendientes, objetivos, y tus apuntes de clase.
+        .cont-second
+          .first-second-into.col-md-5.col-sm-5
+            .image-second-part.img-responsive
+              img.images-icons.container.img-responsive(src='/images/advertising.png')
+            .text-content
+              h2 Manipula tu información
+              .into-first
+                h3
+                  | Crea nuevas tareas y no olvides de realizarlas que Vbook se encarga de recordartelo.
+          .col-md-2.col-sm-2(class='#')
+          .second-second-into.col-md-5.col-sm-5
+            .image-second-second-part
+              img.images-icons.container.img-responsive(src='/images/advertising-edit.png')
+            .text-content-two
+              h2 Mis apuntes
+              .into-second
+                h3
+                  | Ya sea que estés en una conferencia, clase o reunión, con Vbook podrás apuntar toda la información para que organices mejor tus ideas.
+
+    .foot.col-lg-12.col-md-12.col-sm-12.col-xs-12
+      a.regist(href='/Vbook-signup') 
+        .part1.col-lg-6.col-md-6.col-sm-6.col-xs-6
+            li Registrate
+      a.signin(href='/Vbook-signin')
+        .part2.col-lg-6.col-md-6.col-sm-6.col-xs-6 
+          li Iniciar sesión
+
+    .founder.col-lg-12.col-md-12.col-sm-12.col-xs-12
+      h4 Copyright 2017. Todos los derechos reservados
+

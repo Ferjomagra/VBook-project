@@ -1,0 +1,14 @@
+extends ../../templates/forusers/layoutuser
+
+block content
+  .total-content
+    .grandcontent
+      .shownewtext.container
+
+        h2.titlenote= notacion.title
+
+
+        textarea()=notacion.text
+
+        p por #{notacion.creator.comp_email}
+       

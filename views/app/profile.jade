@@ -1,0 +1,49 @@
+extends ../templates/forusers/layoutuser
+
+block content
+  .total-content
+    .infodash.col-lg-9.col-md-9.col-sm-12.col-xs-12
+        ul.nav-two.col-lg-12.col-md-12.col-sm-12.col-xs-12
+          
+          a.a-2(href='/app/addbook')
+            li Contactos
+        
+          a.a-3(href='/app/profile')
+            li Editar
+
+        form.edit-boxes.col-lg-12.col-md-12.col-sm-12.col-xs-12( method='', action='post' )
+         
+          label.change-title Imagen de perfil (110 x 110 px)
+            #div_file6
+              img(src='/images/prof.png')
+              input#btn_enviar(name='imagenes', type='file')
+
+          input(type='text', name='comp_name', id='comp_name', value=user.comp_name)
+
+          //input(type='text', name='comp_email', id='comp_email', value=user.comp_email)
+
+
+          button( name='btn-save') Guardar datos
+
+
+
+    .profilecard.col-lg-3.col-md-3.col-sm-12.col-xs-12
+
+      .prof-box.col-lg-12.col-md-12.col-sm-12.col-xs-12
+        img(src='/images/prof.png')
+
+        h2=user.comp_name
+        
+        h2=user.comp_email
+      
+        
+5647,2017,24,25,6.9,CHILE,CENTRAL CHILE,-33.073,-72.051,89,0.16
+5648,2017,28,26,6.9,PHILIPPINES,SOCCSKSARGEN, PHILIPPINES,5.516,125.093,84
+5649,2017,1,2,6.2,USA,SKAGWAY, AK,59.844,-136.695,87
+5650,2017,29,,,NETHERLANDS,NORTH SEA,,,73,2
+5652,2017,12,10,6.3,GREECE,LESBOS,38.932,26.364,50,0.4
+5651,2017,17,0,,GREENLAND,KARRAT FJORD,71.813,-52.569,72,90
+5654,2017,17,11,7.7,RUSSIA,BERING ISLAND,54.472,168.815,86,0.1
+5656,2017,19,,,COLOMBIA,OFF THE COAST NEAR SANTA MARTA,11,-74.3,74,8
+5655,2017,20,10,6.7,TURKEY,GULF OF G÷KOVA,36.949,27.458,50,1.9
+5658,2017,8,70,8.1,MEXICO,S. MEXICO,15.068,-93.715,,2

@@ -1,0 +1,26 @@
+extends ../templates/forothers/layout
+
+block content
+  
+  .bigcontent
+    form#formu.form-register.col-lg-4.col-lg-offset-4.col-md-6.col-md-offset-3.col-sm-6.col-sm-offset-3.col-xs-12(action='/users', method='post', name='formu', onsubmit='return Validate()')
+      .form-register-second.col-lg-12.col-md-12.col-sm-12.col-xs-12
+        h2 VirtBook
+        h3 Registrate y obten tu cuenta.
+        input#comp_name(type='text', name='comp_name', placeholder='Nombres y apellidos', autocomplete='off')
+        #error_comp_name.error_comp_name
+        input#comp_email(type='text', name='comp_email', placeholder='Email', autocomplete='off')
+        #error_comp_email.error_comp_email
+        input#comp_pass(type='password', name='comp_pass', placeholder='Contraseña')
+        #error_comp_pass.error_comp_pass
+        input#comp_repp_pass(type='password', name='reap_pass', placeholder='Repite tu contraseña')
+        #error_repp_pass.error_repp_pass
+        .checkbox
+          label
+            input(type='checkbox', name='terms_conditions', id='terms_conditions')
+            a(href='#') Acepto los términos y condiciones
+        #error_terms_conditions.error_terms_conditions
+        // <div class="ui error message"></div>
+        #btn-enviar.ui.button.submit
+          input#createaccount(type='submit', value='Crear mi cuenta', name='createaccount')
+  script(src='/javascripts/validate.js')

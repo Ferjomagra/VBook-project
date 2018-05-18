@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/*INCIO DE HEADER*/
+.navbar{
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
+  font-size: 24px;
+}
+.navbar-default{
+  background-color: #6666ff;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: white;
+}
+.navbar-default .navbar-nav>.active>a {
+  color: white;
+  background-color: #00cc7a;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: none;
+}
+/*FIN DE HEADER*/
+
+/*INICIO DE START*/
+/*Inicio de imagen de fondo*/
+.bigContent{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1366px;
+	font-family: 'Montserrat', sans-serif;
+}
+.bigContent .mayor-content{
+	width: 100%;
+	margin-bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+#image{
+	height: 600px;
+	overflow: hidden;
+	margin-top: 0px;
+	transform: skewY(9deg);
+	transform-origin: right;
+	background: linear-gradient(180deg, #6666ff, #00ffff);
+}
+
+.bigContent .introduction{
+	position: absolute;
+	top: 125px;
+	width: 100%;
+}
+/*Inicio de imagen-html*/
+.bigContent .introduction .content-1{
+	text-align: left;
+}
+.bigContent .introduction .content-1 h2{
+	font-size: 28px;
+	color: white;
+}
+.bigContent .introduction .content-1 h3{
+	font-size: 16px;
+	line-height: 25px;
+	max-width: 60%;
+	color: white;
+}
+.bigContent .introduction .content-1 .button_content-1{
+	margin-top: 40px;
+
+}
+.bigContent .introduction .content-1 .button_content-1 a{
+	font-size: 18px;
+	background-color: white;
+	padding: 10px;
+	color: #666666;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+.bigContent .introduction .content-1 .button_content-1 a:hover {
+	transform: (1.1,1.1);
+	background-color: white;
+	color: #00b33c;
+}
+
+.bigContent .introduction .group{
+	
+}
+.bigContent .introduction .photo-html{
+	margin-bottom: 10px;
+	width: 313px;
+	background: #0080ff;
+	height: 550px;
+	border-radius: 35px;
+	border: 2px solid #1a8cff;
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+.bigContent .introduction .photo-html .stripe{
+	background-color: white;
+	width: 70px;
+	height: 10px;
+	border-radius: 3px;
+	margin-top: 20px;
+}
+.bigContent .introduction .photo-html .web-cam{
+ 	border-radius: 100%;
+    margin-top: 20px;
+    background: #4299f0;
+    width: 10px;
+    height: 10px;
+    margin-left: 48%;
+}
+.bigContent .introduction .photo-html .screen{
+	background-image: url('../images/start.png');
+	background-repeat: no-repeat;
+	border: 1px solid #0066cc;
+	border-radius: 0px;
+	width: 280px;
+	height: 450px;
+	margin-top: 15px;
+}
+.bigContent .introduction .photo-html .button-phone{
+	border-radius: 30%;
+    margin-top: 15px;
+    background: #4299f0;
+    border: 1px solid #0066cc;
+    width: 30px;
+    height: 30px;
+    margin-left: 45%;
+}
+
+/*Fin de imagen-html*/
+/*Fin de imagen de fondo*/
+/*Inicio de section otra parte*/
+.section-image{
+	transform: skewY(5deg);
+	background: green;
+	position: absolute;
+}
+.second-part{
+	margin-top: 40px;
+	/*border-bottom: 1px solid #e6e6e6;*/
+}
+
+.second-part .second-mayor .cont-first{
+	margin-bottom: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+.second-part .cont-first h2{
+	font-size: 23px;
+	color:  #6666ff;
+	text-align: center;
+}
+.second-part .cont-first .cont-into h3{
+	font-size: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	color: #a6a6a6;
+	line-height: 25px;
+}
+.second-part .cont-second{
+	padding-left: 8%;
+	padding-right: 8%;
+	font-family: 'Montserrat', sans-serif;
+}
+.second-part .cont-second .first-second-into{
+	/*background-color: #33ffad;*/
+	border-radius: 15px;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.second-part .cont-second .first-second-into .image-second-part{
+	background: white;
+	height: 100%;
+	padding: 10px;
+	width: 100%;
+	border-radius: 5px;
+
+}
+.second-part .cont-second .first-second-into .text-content{
+	/*box-shadow: 0px 5px 15px rgba(0,0,0,0.2);*/
+	padding: 20px;
+	background: white; 
+	border-radius: 5px;
+	/*box-shadow: 0px 5px 15px rgba(0,0,0,0.2);*/
+}
+
+.second-part .cont-second .first-second-into h2{
+	font-size: 23px;
+	text-align: left;
+	color: #00b36b;
+}
+
+.second-part .cont-second .first-second-into .into-first h3{
+	text-align: left;
+	font-size: 18px;
+	color: #a6a6a6;
+	margin-right: 0%;
+	margin-left: 0%;
+	line-height: 30px;
+}
+.second-part .cont-second .second-second-into h2{
+	font-size: 23px;
+	text-align: right;
+	color:  #6666ff;
+}
+.second-part .cont-second .second-second-into .into-second h3{
+	font-size: 18px;
+	color: #a6a6a6;
+	text-align: right;
+	line-height: 30px;
+}
+.second-part .cont-second .second-second-into .text-content-two{
+	background: white;
+	padding: 15px;
+	border-radius: 5px;
+	/*box-shadow: 0px 5px 15px rgba(0,0,0,0.2);*/
+}
+
+/*INICIO DEL FOOTER*/
+.foot{
+	background-color: #1a8cff;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+.foot a{
+	text-decoration: none;
+	font-size: 17px;
+	color: white;
+}
+.foot li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	list-style: none;
+	transition: all 0.3s ease;
+}
+.foot li:hover {
+	transform: (1.1,1.1);
+	background: #6666ff;
+}
+.founder{
+	background: #1a8cff;
+}
+.founder h4{
+	font-size: 15px;
+	color: #004080;
+	text-align: center;
+}
+/*FIN DEL FOOTER*/
+/*FIN DE START*/
+
+/*Inicio de register*/
+.form-register{
+	margin-top: 10%;
+	border-radius: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.form-register .form-register-second{
+	display: block;
+	border-radius: 5px;
+	background:  #f2f2f2;
+	/*background: linear-gradient(80deg, #1affa3, #1affa3);*/
+	padding-top: 3%;
+	padding-bottom: 3%;
+	box-shadow: 0 0px 15px rgba(0,0,0,0.2);
+	margin-top: 30px;
+}
+.form-register .form-register-second h2{
+	text-align: center;
+	color: #6666ff;
+	font-weight: bold;
+	margin-bottom: 5%;
+	margin-top: 10%;
+}
+.form-register .form-register-second h3{
+	text-align: center;
+	margin-bottom: 10%;
+	font-size: 20px;
+	color: #737373;
+}
+.form-register .form-register-second input[type=text]{
+	/*margin-bottom: 3%;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	font-size: 18px;*/
+	font-family: 'Montserrat', sans-serif;
+	color: #999999;
+	font-size: 18px;
+	width: 100%;
+	padding: 5%;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	margin-bottom: 3%;
+	outline: none;
+}
+.form-register .form-register-second input[type=email]{
+	font-family: 'Montserrat', sans-serif;
+	color: #999999;
+	font-size: 18px;
+	width: 100%;
+	padding: 5%;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	margin-bottom: 3%;
+	outline: none;
+}
+/*Errores para validación*/
+.form-register .form-register-second .error_comp_name {
+    font-family: 'Montserrat', sans-serif;
+    color: #ff4d4d;
+    font-size: 15px;
+    padding-bottom: 1%;
+}
+.form-register .form-register-second .error_country {
+    font-family: 'Montserrat', sans-serif;
+    color: #ff4d4d;
+    font-size: 15px;
+    padding-bottom: 1%;
+}
+.form-register .form-register-second .error_comp_email {
+    font-family: 'Montserrat', sans-serif;
+    color: #ff4d4d;
+    font-size: 15px;
+    padding-bottom: 1%;
+}
+.form-register .form-register-second .error_comp_pass {
+    font-family: 'Montserrat', sans-serif;
+    color: #ff4d4d;
+    font-size: 15px;
+    padding-bottom: 1%;
+}
+.form-register .form-register-second .error_repp_pass {
+    font-family: 'Montserrat', sans-serif;
+    color: #ff4d4d;
+    font-size: 15px;
+    padding-bottom: 1%;
+}
+.form-register .form-register-second .error_terms_conditions {
+    font-family: 'Montserrat', sans-serif;
+    color: #ff4d4d;
+    font-size: 15px;
+    padding-bottom: 1%;
+}
+/*Fin de errores para validación*/
+
+.form-register .form-register-second select.country{
+	font-family: 'Montserrat', sans-serif;
+	color: #999999;
+	font-size: 18px;
+	width: 100%;
+	padding: 5%;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	margin-bottom: 3%;
+}
+
+.form-register .form-register-second input[type=password]{
+	/*margin-bottom: 3%;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	font-size: 18px;*/
+	font-family: 'Montserrat', sans-serif;
+	color: #999999;
+	font-size: 18px;
+	width: 100%;
+	padding: 5%;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	margin-bottom: 3%;
+	outline: none;
+}
+
+.form-register .form-register-second .button input[type=submit]{
+	width: 100%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-size: 18px;
+	border-radius: 5px;
+	color: #8c8c8c;
+	background: #e6e6e6;
+	border: none;
+	transition: all 0.3s ease;
+}
+.form-register .form-register-second .button input[type=submit]:hover {
+	transform: (1.1,1.1);
+	background: #6666ff;
+	color: white;
+}
+/*Fin de register*/
+
+/*INICIO DE SIGNIN*/
+.select-start{
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 110px;
+	width: 100%;
+	height: 800px;
+	padding-left: 14%;
+	padding-right: 14%;
+	background: linear-gradient(180deg, white, white);
+	
+}
+.select-start h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	color: #1a8cff;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.select-start .box{
+	border: 2px solid #f2f2f2;
+	background-color: white;
+	border-radius: 10px;
+	padding-bottom: 15px;
+	padding-top: 50px;
+	height: 350px;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+/*Inicio de box de inicio de sesión 'box-sign-in'*/
+.select-start-sign-in{
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 90px;
+	width: 100%;
+	height: 900px;
+	padding-left: 2%;
+	padding-right: 2%;
+	background: linear-gradient(180deg, white, white);
+}
+.select-start-sign-in h2{
+	text-align: center;
+	font-size: 35px;
+	color: #1a8cff;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.select-start-sign-in .box-sign-in{
+	border: 2px solid #f2f2f2;
+	background-color: white;
+	border-radius: 10px;
+	padding-bottom: 15px;
+	padding-top: 50px;
+	height: 350px;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.select-start-sign-in .box-sign-in h3{
+	text-align: center;
+	color: #1a8cff;
+}
+
+.select-start-sign-in .box-sign-in .input-email{
+	width: 100%;
+	outline: none;
+	border-radius: 5px;
+	padding: 7px;
+	border: 1px solid #bfbfbf;
+	transition: all 0.3s ease;
+}
+.select-start-sign-in .box-sign-in .input-email:hover {
+	transform: (1.1,1.1);
+	border: 1px solid #1a8cff;
+}
+.select-start-sign-in .box-sign-in .input-pass{
+	width: 100%;
+	outline: none;
+	border-radius: 5px;
+	padding: 7px;
+	border: 1px solid #bfbfbf;
+	transition: all 0.3s ease;
+}
+.select-start-sign-in .box-sign-in .input-pass:hover {
+	transform: (1.1,1.1);
+	border: 1px solid #1a8cff;
+}
+
+.select-start-sign-in .box-sign-in .cube-sign-in button{
+	transition: all 0.3s ease;
+	outline: none;
+}
+.select-start-sign-in .box-sign-in .cube-sign-in button:hover{
+	transform: (1.1,1.1);
+	background-color: #1a8cff; 
+	color: white;
+}
+/*Fin de box de inicio de sesión 'box-sign-in'*/
+.select-start .box h3{
+	text-align: center;
+	color: #00b359;
+}
+
+/*Inicio de input-email*/
+.select-start .box .cube .input-email{
+	width: 100%;
+	outline: none;
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px solid #bfbfbf;
+	transition: all 0.3s ease;
+}
+.select-start .box .cube .input-email:hover {
+	transform: (1.1,1.1);
+	border: 1px solid #00ff80;
+}
+/*Fin de input-email*/
+.select-start .box .cube .input-pass{
+	width: 100%;
+	outline: none;
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px solid #bfbfbf;
+	transition: all 0.3s ease;
+}
+.select-start .box .cube .input-pass:hover {
+	transform: (1.1,1.1);
+	border: 1px solid #00ff80;
+}
+
+.select-start .box .cube button{
+	transition: all 0.3s ease;
+	outline: none;
+}
+.select-start .box .cube button:hover{
+	transform: (1.1,1.1);
+	background-color: #00cc7a; 
+	color: white;
+}
+/*FIN DE SIGNIN*/
+
+
+@media (max-width: 800px) {
+
+	.navbar-toggle {
+	    position: relative;
+	    float: right;
+	    padding: 9px 10px;
+	    margin-top: 8px;
+	    margin-left: 15px;
+	    margin-bottom: 8px;
+	    background-color: transparent;
+	    background-image: none;
+	    border: none;
+	    /* border-radius: 4px; */
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    	background-color: transparent;
+	}
+	.navbar-brand {
+	    float: left;
+	    height: 50px;
+	    padding: 15px 15px;
+	    font-size: 18px;
+	    line-height: 20px;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+	    background-color: white;
+	    font-size: 10px;
+	    transition: all 0.3s ease;
+	}
+	.navbar-default .navbar-toggle .icon-bar: hover {
+		transform: (1.1,1.1);
+		background-color: #333333;
+	}
+	.navbar-toggle .icon-bar {
+	    display: block;
+	    width: 28px;
+	    height: 3px;
+	    border-radius: 1px;
+	}
+
+	.navbar {
+	    font-family: 'Montserrat', sans-serif;
+	    margin-bottom: 0;
+	    background-color: #00b359;
+	    border: 0;
+	    font-size: 11px !important;
+	    letter-spacing: 0px;
+	    
+	}
+	.navbar li a, .navbar .navbar-brand { 
+	    color: white;
+	}
+	.navbar-nav li:hover{
+	    background: #4da6ff;
+	}
+	.navbar-nav li a:hover {
+	    color: white !important;
+	}
+	.navbar-nav li.active a {
+	    color: white !important;
+	    transition: all 0.3s ease;
+	}
+	.navbar-nav li.active a: hover{
+		transform: (1.1,1.1);
+	    color: #333333;
+	}
+	.navbar-default{
+	    background-color: #6666ff;
+	}
+	.navbar-default .navbar-nav>li>a{
+	    font-size: 14px;
+	}
+	.navbar-default .navbar-toggle {
+	    border-color: white;
+	}
+	.open .dropdown-toggle {
+	    color: white;
+	    background-color: #fff !important;
+	}
+	.dropdown-menu li a {
+	    color: white;
+	    font-size: 15px;
+	}
+	.dropdown-menu li a:hover {
+	    background-color: red !important;
+	}
+	/*INICIO DE REGIST*/
+	.
+	/*FIN DE REGIST*/
+
+}
+
+@media (max-width: 670px){
+	.introduction .group{
+		display: none;
+	}
+	.introduction .content-1{
+		width: 100%;
+		text-align: center;
+	}
+	/*Advertise*/
+	.principal-content-advert .text-advertise .imgs-center h2{
+		margin-top: 15%;
+		font-size: 24px;
+	}
+	/*Fin de advertise*/
+
+	.bigContent .introduction .content-1 h3{
+		font-size: 16px;
+		line-height: 25px;
+		max-width: 100%;
+		color: white;
+	}
+}

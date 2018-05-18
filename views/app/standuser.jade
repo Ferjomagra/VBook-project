@@ -1,0 +1,39 @@
+extends ../templates/forusers/layoutuser
+
+block content
+  .total-content
+    .infodash.col-lg-9.col-md-9.col-sm-12.col-xs-12
+      ul.nav-two.col-lg-12.col-md-12.col-sm-12.col-xs-12
+        //a.a-1(href='/app/mystand')
+          li Mi stand
+      
+        a.a-2(href='/app/profile')
+          li Editar
+      
+        a.a-3(href='#')
+          li Contactos
+
+      .add.col-lg-12.col-md-12.col-sm-12.col-xs-12
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+    .profilecard.col-lg-3.col-md-3.col-sm-12.col-xs-12
+
+      .prof-box.col-lg-12.col-md-12.col-sm-12.col-xs-12
+        img(src='/images/prof.png')
+
+        h2=user.comp_name
+        
+        h2=user.comp_email
+      

@@ -1,0 +1,39 @@
+extends ../../templates/forusers/layoutuser
+
+block content
+  .total-content
+    .infodash.col-lg-9.col-md-9.col-sm-12.col-xs-12
+        ul.nav-two.col-lg-12.col-md-12.col-sm-12.col-xs-12
+          
+          a.a-2(href='#')
+            li Contactos
+        
+          a.a-3(href='/app/profile/edit')
+            li Editar
+
+        form.edit-boxes.col-lg-12.col-md-12.col-sm-12.col-xs-12( method='', action='post' )
+         
+          //label.change-title Imagen de perfil (110 x 110 px)
+            #div_file6
+              img(src='/images/prof.png')
+              input#btn_enviar(name='imagenes', type='file')
+
+          input(type='text', name='comp_name', id='comp_name', value=user.comp_name)
+
+          //input(type='text', name='comp_email', id='comp_email', value=user.comp_email)
+
+
+          button( name='btn-save') Guardar datos
+
+
+
+    .profilecard.col-lg-3.col-md-3.col-sm-12.col-xs-12
+
+      .prof-box.col-lg-12.col-md-12.col-sm-12.col-xs-12
+        img(src='/images/prof.png')
+
+        h2=user.comp_name
+        
+        h2=user.comp_email
+      
+        

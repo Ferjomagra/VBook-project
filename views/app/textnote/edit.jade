@@ -1,0 +1,21 @@
+extends ../../templates/forusers/layoutuser
+
+block content
+  .total-content
+    .grandcontent
+      .col-lg-2.col-md-1
+
+      .container-img.col-lg-8.col-md-10.col-sm-12.col-xs-12
+        h2 Edita tu apunte
+        form.imgnew(action='/app/textnote/#{notacion.id}?_method=PUT', method='POST')
+
+          
+          input(type='text', name='title', id='addimg', autocomplete='off', value='#{notacion.title}')
+
+          textarea(name='text', autocomplete='off') #{notacion.text}
+
+
+        
+          input(type='submit', value='Guardar')
+
+      .col-lg-2.col-md-1
