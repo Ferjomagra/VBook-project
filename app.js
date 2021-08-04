@@ -15,7 +15,7 @@ var multipart = require('connect-multiparty')
 
 var mongoose = require('mongoose')
     mongoose.connect('mongodb://localhost/vbook') 
-    /*mongoose.connect('mongodb://vbook:1234@ds121345.mlab.com:21345/heroku_z5p04jcw')*/
+    /*mongoose.connect('')*/
 
 var router_app = require('./routes_app')
 var session_middleware = require('./middlewares/session')
